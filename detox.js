@@ -14,6 +14,11 @@
     Simply load this script on any offending webpage (most of them)
     and watch your troubles disappear. Ah, now you can actually read
     the damned thing.
+
+  What:
+    Detox is a very, very simple script that crawls a page for
+    <link rel="stylesheet">, <style> and <script> tags and removes
+    their contents, thus removing much of what makes the web awful.
 */
 
 (function () {

@@ -1,6 +1,6 @@
 #Detox
 
-    Detox - Because most pages are shit
+    Detox - Because most pages are crap
     Copyright (c) 2015, Ryan Kennedy <ry@nkennedy.net>
   
     Permission to use, copy, modify, distribute, and sell this software

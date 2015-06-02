@@ -1,5 +1,5 @@
 /*
-  Detox - Because most pages are shit
+  Detox - Because most pages are crap
   Copyright (c) 2015, Ryan Kennedy <ry@nkennedy.net>
 
   Permission to use, copy, modify, distribute, and sell this software
@@ -31,6 +31,7 @@
   document.head.appendChild(document.createElement('style')).innerHTML = 
     "*{color:#0A0;background:#000;font:16px/26px Monaco,monospace;}" + 
     "body{margin:0px auto;max-width:60%;}" + 
-    "a{color:#0F0;}";
+    "a{color:#0F0;}" + 
+    "img{display:none;}";
   }
 )();

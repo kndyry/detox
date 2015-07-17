@@ -20,3 +20,8 @@
       Detox is a very, very simple script that crawls a page for
       <link rel="stylesheet">, <style> and <script> tags and removes
       their contents, thus removing much of what makes the web awful.
+
+#### Use as your bookmark's URL
+```js
+javascript:(function(){for(var%20y=document.getElementsByTagName(%22link%22),u=document.getElementsByTagName(%22script%22),k=document.getElementsByTagName(%22style%22),i=0;i%3Cy.length;i++)%22stylesheet%22===y[i].rel%26%26(y[i].href=null);for(var%20i=0;i%3Cu.length;i++)u[i].src=null,u[i].innerHTML=null;for(var%20i=0;i%3Ck.length;i++)k[i].innerHTML=null;document.head.appendChild(document.createElement(%22style%22)).innerHTML=%22*{color:%230A0;background:%23000;font:16px/26px%20Monaco,monospace;}body{margin:0px%20auto;max-width:60%25;}a{color:%230F0;}img{display:none;}%22})();
+```
